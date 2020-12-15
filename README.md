@@ -102,4 +102,7 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+ con ❤️ :
+[David](https://github.com/David-Sastre) 😊
+[Miquel](https://github.com/miquel21-hub) 😊
+[Roberto](https://github.com/rdtorres-cfgs) 😊
