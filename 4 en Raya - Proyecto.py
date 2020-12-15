@@ -4,6 +4,7 @@ fichas_puestas = 0
 posicionj1 = 0
 posicionj2 = 0
 partida = True
+turnojugador2 =()
 tabla = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 seguir = False
 
@@ -23,7 +24,7 @@ def Tablero(tabla):
     print(tabla[1], ' | ', tabla[2], ' | ', tabla[3], ' | ', tabla[4])
 
 
-def partida_ganada(tabla):
+def PartidaGanada(tabla):
     if tabla[13] == tabla[14] == tabla[15] == tabla[16] or\
         tabla[9] == tabla[10] == tabla[11] == tabla[12] or\
         tabla[5] == tabla[6] == tabla[7] == tabla[8] or\
@@ -54,7 +55,7 @@ def JugadaJugador1(posicionj1, tupla):
             while tabla[posicionj1] == "O" or tabla[posicionj1] == "X":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
                 posicionj1 = int(input("Posición: "))
-                if partida_ganada(tabla) == True:
+                if PartidaGanada(tabla) == True:
                     os.system ('cls')
                     Tablero(tabla)
                     print (" ")
@@ -64,7 +65,7 @@ def JugadaJugador1(posicionj1, tupla):
                     return False
             tabla[posicionj1] = "X"
             fichas_puestas += 1
-            if partida_ganada(tabla) == True:
+            if PartidaGanada(tabla) == True:
                 os.system ('cls')
                 Tablero(tabla)
                 print (" ")
@@ -93,7 +94,7 @@ def JugadaJugador2(posicionj2, tupla):
             while tabla[posicionj2] == "X" or tabla[posicionj2] ==  "O":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
                 posicionj2 = int(input("Posición: "))
-                if partida_ganada(tabla) == True:
+                if PartidaGanada(tabla) == True:
                     os.system ('cls')
                     Tablero(tabla)
                     print (" ")
@@ -103,7 +104,7 @@ def JugadaJugador2(posicionj2, tupla):
             tabla[posicionj2] = "O"
             fichas_puestas += 1
             
-            if partida_ganada(tabla)==True:
+            if PartidaGanada(tabla)==True:
                 os.system ('cls')
                 Tablero(tabla)
                 print (" ")
@@ -147,10 +148,10 @@ def Jugadas():
             else:
                 partida= JugadaJugador2(posicionj2, tupla)
                 turno = 0
-        jugar = seguir_jugando()
+        jugar = SeguirJugando()
         
 
-def seguir_jugando(): #Devolverá TRUE si el jugador quiere seguir jugando.
+def SeguirJugando(): #Devolverá TRUE si el jugador quiere seguir jugando.
     global fichas_puestas
     global tabla
     print(" ")
