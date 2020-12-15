@@ -6,7 +6,7 @@ posicionj2 = 0
 partida = True
 turnojugador2 =()
 tabla = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
-seguir = False
+
 
 def Tablero(tabla):
     print(tabla[13], ' | ', tabla[14], ' | ', tabla[15], ' | ', tabla[16])
@@ -191,7 +191,7 @@ def Menu():
 
 
 def OpcionesMenu():
-    global seguir
+    
     opcion = int(input("¿Qué opción deseas? "))
     if opcion == 1:
         Instrucciones()
@@ -200,14 +200,13 @@ def OpcionesMenu():
     elif opcion == 3:
         os.system ('cls')
         print ("HASTA LUEGO, ¡VUELVE PRONTO!")
-        seguir = False
+        
     else:
         print("La opción es incorrecta, elija una opción correcta.")
 
 
 def Instrucciones():
     os.system('cls')
-    global seguir
     print("")
     print(" ========================================================================== ")
     print(" =========================== INSTRUCCIONES ================================ ")
@@ -220,7 +219,7 @@ def Instrucciones():
     print("")
     print("Para ganar, simplemente hay que conseguir posicionar 4 fichas en horizontal,")
     print("diagonal o vertical seguidas y proclamarte GANADOR de la partida! Si llegado")
-    print("el momentoel tablero se queda sin posiciones disponibles y no hay ganador, se")
+    print("el momento el tablero se queda sin posiciones disponibles y no hay ganador, se")
     print("quedará la partidda como empate, por lo que no habrá ganadores ni perdedores.")
     print(" =========================== IMPORTANTE =================================== ")
     print(" ===== LO PRINCIPAL DE ESTE JUEGO, ES DIVERTIRSE Y PASAR UN BUEN RATO ===== ")
