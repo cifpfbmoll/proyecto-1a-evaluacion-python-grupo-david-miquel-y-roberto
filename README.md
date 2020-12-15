@@ -1,4 +1,4 @@
-# Proyecto 1a Evaluación python grupo David, Mique y Roberto
+# Proyecto 1a Evaluación python grupo David, Miquel y Roberto
 
 _Acá va un párrafo que describa lo que es el proyecto_
 
