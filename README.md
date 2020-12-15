@@ -73,11 +73,9 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* [Visual Studio Code](https://code.visualstudio.com/) - El IDE utilizado para trabajar en equipo simultáneamente, con un plugin que permite programar con varias personas simultáneamente en un proyecto.
+* [GitHub](https://github.com/) - Repositorio de los archivos
+* [Discord](https://discord.com/) - Aplicacion para reuniones onlines
 
 ## Contribuyendo 🖇️
 
@@ -95,8 +93,9 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **David Sastre Fernández** - *Trabajo Inicial* - *Documentación* - [David](https://github.com/David-Sastre)
+* **Miquel Ribas Mas** - *Documentación* - *Documentación* - [Miquel](https://github.com/miquel21-hub)
+* **Roberto Torres Cruz** - *Documentación* - *Documentación* - [Roberto](https://github.com/rdtorres-cfgs)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
@@ -115,6 +114,5 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 ---
 Con ❤️ :
-[David](https://github.com/David-Sastre) 😊
-[Miquel](https://github.com/miquel21-hub) 😊
-[Roberto](https://github.com/rdtorres-cfgs) 😊
+[Julia](https://github.com/juliajacaDAM) 😊
+[Josep](https://github.com/jmjimenezn) 😊
