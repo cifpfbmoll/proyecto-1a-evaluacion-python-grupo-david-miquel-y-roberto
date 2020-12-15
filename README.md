@@ -20,9 +20,9 @@ _· Uno de los principales errores y más graves que cometimos a la hora de real
 
 ### Pre-requisitos 📋
 
-_Un ordenador_
-_Python 3.x_
-_Un IDE compatible con Python 3.x_
+_Un ordenador_<br>
+_Python 3.x_<br>
+_Un IDE compatible con Python 3.x_<br>
 
 ```
 Da un ejemplo
