@@ -1,6 +1,6 @@
-# Proyecto 1a Evaluación python grupo David, Miquel y Roberto
+# Proyecto  1a evaluación 4 en raya
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Este proyecto, consiste en realizar el juego del cuatro en raya (formato papel), donde hemos puesto en practica lo aprendido durante el primer trimestre. Hemos realizado el juego en lenguaje Python en un grupo de tres personas._
 
 ## Comenzando 🚀
 
@@ -102,7 +102,7 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 
 ---
- con ❤️ :
+Con ❤️ :
 [David](https://github.com/David-Sastre) 😊
 [Miquel](https://github.com/miquel21-hub) 😊
 [Roberto](https://github.com/rdtorres-cfgs) 😊
