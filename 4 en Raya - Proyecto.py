@@ -52,39 +52,35 @@ def JugadaJugador1(posicionj1, tupla):
         posicionj1 = int(input("Posición: "))
         if 1 <= posicionj1 <= 16:
             posicionj1 == tabla[posicionj1]
-            if tabla[posicionj1] == "O" and "X":
+            while tabla[posicionj1] == "O" or tabla[posicionj1] == "X":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
                 posicionj1 = int(input("Posición: "))
-                tabla[posicionj1]="X"
-                fichas_puestas += 1
                 if partida_ganada(tabla) == True:
                     os.system ('cls')
                     Tablero(tabla)
                     print (" ")
                     print ("¡ENHORABUENA ", str.upper(tupla[0]), " HAS GANADO!" )
                     JuegoFinalizado()
+                    print(Tablero(tabla))
                     return False
-                print(Tablero(tabla))
-                
-            else:
-                tabla[posicionj1] = "X"
-                fichas_puestas += 1
-                if partida_ganada(tabla) == True:
-                    os.system ('cls')
-                    Tablero(tabla)
-                    print (" ")
-                    print ("¡ENHORABUENA ", str.upper(tupla[0]), " HAS GANADO!" )
-                    JuegoFinalizado()
-                    return False
-                elif fichas_puestas == 16:
-                    os.system ('cls')
-                    Tablero(tabla)
-                    print ("=================")
-                    print ("== E M P A T E ==")
-                    print ("=================")
-                    return False
-            os.system ('cls')
-            return True
+            tabla[posicionj1] = "X"
+            fichas_puestas += 1
+            if partida_ganada(tabla) == True:
+                os.system ('cls')
+                Tablero(tabla)
+                print (" ")
+                print ("¡ENHORABUENA ", str.upper(tupla[0]), " HAS GANADO!" )
+                JuegoFinalizado()
+                return False
+            elif fichas_puestas == 16:
+                os.system ('cls')
+                Tablero(tabla)
+                print ("=================")
+                print ("== E M P A T E ==")
+                print ("=================")
+                return False
+        os.system ('cls')
+        return True
 
 def JugadaJugador2(posicionj2, tupla):
     global fichas_puestas
@@ -95,11 +91,9 @@ def JugadaJugador2(posicionj2, tupla):
         posicionj2 = int(input("Posición: "))
         if 1 <= posicionj2 <= 16:
             posicionj2 == tabla[posicionj2]
-            if tabla[posicionj2] == "X" and "O":
+            while tabla[posicionj2] == "X" or tabla[posicionj2] ==  "O":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
                 posicionj2 = int(input("Posición: "))
-                tabla[posicionj2]="O"
-                fichas_puestas += 1
                 if partida_ganada(tabla) == True:
                     os.system ('cls')
                     Tablero(tabla)
@@ -107,26 +101,25 @@ def JugadaJugador2(posicionj2, tupla):
                     print ("¡ENHORABUENA ", str.upper(tupla[1]), " HAS GANADO!" )
                     JuegoFinalizado()
                     return False
-            else:
-                tabla[posicionj2] = "O"
-                fichas_puestas += 1
-                
-                if partida_ganada(tabla)==True:
-                    os.system ('cls')
-                    Tablero(tabla)
-                    print (" ")
-                    print ("¡ENHORABUENA ", str.upper(tupla[1]), " HAS GANADO!" )
-                    JuegoFinalizado()
-                    return False
-                elif fichas_puestas == 16:
-                    os.system ('cls')
-                    Tablero(tabla)
-                    print ("=================")
-                    print ("== E M P A T E ==")
-                    print ("=================")
-                    return False
-            os.system ('cls')
-            return True
+            tabla[posicionj2] = "O"
+            fichas_puestas += 1
+            
+            if partida_ganada(tabla)==True:
+                os.system ('cls')
+                Tablero(tabla)
+                print (" ")
+                print ("¡ENHORABUENA ", str.upper(tupla[1]), " HAS GANADO!" )
+                JuegoFinalizado()
+                return False
+            elif fichas_puestas == 16:
+                os.system ('cls')
+                Tablero(tabla)
+                print ("=================")
+                print ("== E M P A T E ==")
+                print ("=================")
+                return False
+        os.system ('cls')
+        return True
                 
     
  
