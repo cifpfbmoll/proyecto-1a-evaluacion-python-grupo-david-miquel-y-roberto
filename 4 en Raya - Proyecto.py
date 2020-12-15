@@ -4,7 +4,6 @@ fichas_puestas = 0
 posicionj1 = 0
 posicionj2 = 0
 partida = True
-turnojugador2 =()
 tabla = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 seguir = False
 
