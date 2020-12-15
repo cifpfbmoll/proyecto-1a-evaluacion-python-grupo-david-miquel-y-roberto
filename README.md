@@ -18,33 +18,34 @@ _· De manera que cada vez que nos reuníamos, seguíamos la manera de trabajar 
 
 _· Uno de los principales errores y más graves que cometimos a la hora de realizar el proyecto, fue el enfoque funcional, puesto que decidimos que la manera de realizar el proyecto iba a ser a través de coordenadas, pero una vez realizads, no encontramos la manera de guardar esas coordenadas. Entonces el ProductOwner nos sugirió realizar un tablero donde guardar dichas coordenadas._<br>
 
+## Metodología SCRUM 🚀❤️
+
+| Nº Sprint| Actividad| Tiempo Estimado | Tiempo Real | Observaciones |
+| ----- | ---- | ----- | ----- | ----- |
+| 1 | Función Tablero | 45 minutos | 4 horas | Se nos complicó a la hora de pensar la forma de realizar el propio tablero |
+| 2 | Función InicioJugadores | 10 minutos | 15 minutos |
+| 3 | Función Menú | 10 minutos | 5 minutos |
+| 4 | Función OpcionesMenu| 20 minutos | 1 hora | Tuvimos problemas con la función seguir, que no la llamabamos como global
+| 5 | Función JugadaJugador1 | 2 horas | 10 horas | Complicaciones con toda la función en general.
+| 6 | Función JugadaJugador2 | 15 minutos | 15 minutos |
+| 7 | Función JuegoFinalizado | 5 minutos | 2 minutos |
+| 8 | Función PartidaGanada | 1 hora 30 minutos | 2 horas |
+| 9 | Función Jugadas | 2 horas | 3 horas |
+| 10 | Función SeguirJugando  | 40 minutos | 1 hora 30 minutos |
+| 11 | Función Instrucciones  | 30 minutos | 1 hora 25 minutos |
+
+
 ### Pre-requisitos 📋
 
 _Un ordenador_<br>
 _Python 3.x_<br>
 _Un IDE compatible con Python 3.x_<br>
 
-```
-Da un ejemplo
-```
-
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Descargar el código del programa_<br>
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Ejecutarlo en el IDE_
 
 ## Ejecutando las pruebas ⚙️
 
