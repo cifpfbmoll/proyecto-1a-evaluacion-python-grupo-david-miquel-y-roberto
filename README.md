@@ -2,9 +2,16 @@
 
 _Este proyecto, consiste en realizar el juego del cuatro en raya (formato papel), donde hemos puesto en practica lo aprendido durante el primer trimestre. Hemos realizado el juego en lenguaje Python en un grupo de tres personas._
 
-## Comenzando 🚀
+## Primeros pasos 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_· Principalmente tuvimos que reunirnos para dar una Brainstorming_
+_· Seguidamente una vez realizada la lluvia de ideas, ver cual de todas era la más factible._
+_· Después tuvimos que pensar de que manera ibamos a realizar cada fase del proyecto, aunque cabe destacar que al ser la primera vez, no lo hicimos muy bien, puesto que los sprints han sido un poco aleatorios, en referencia a la necesidad de avanzar en el proyecto en las dos últimas semanas de manera precipitada._
+_· Para realizar el proyecto hemos seguido la metodología SCRUM._
+_· Decidimos que cada reunión uno sería de forma ciclica el ScrumMaster, de tal manera que siempre sería uno diferente._
+_· De manera que cada vez que nos reuníamos, seguíamos la manera de trabajar del ScrumMaster que tocaba en ese día._
+_· Uno de los principales errores y más graves que cometimos a la hora de realizar el proyecto, fue el enfoque funcional, puesto que decidimos que la manera de realizar el proyecto iba a ser a través de coordenadas, pero una vez realizads, no encontramos la manera de guardar esas coordenadas. Entonces el ProductOwner nos sugirió realizar un tablero donde guardar dichas coordenadas._
+_· Seguidamente una vez realizada la lluvia de ideas, ver cual de todas era la más factible_
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
