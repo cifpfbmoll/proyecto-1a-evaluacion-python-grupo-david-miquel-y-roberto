@@ -102,5 +102,5 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 ---
 Con ❤️ :
-[Julia](https://github.com/juliajacaDAM) 😊
-[Josep](https://github.com/jmjimenezn) 😊
+[Julia](https://github.com/juliajacaDAM)🤓
+[Josep](https://github.com/jmjimenezn)🤓
