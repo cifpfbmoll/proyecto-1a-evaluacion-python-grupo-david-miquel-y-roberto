@@ -4,21 +4,21 @@ _Este proyecto, consiste en realizar el juego del cuatro en raya (formato papel)
 
 ## Primeros pasos 🚀
 
-_· Principalmente tuvimos que reunirnos para dar una Brainstorming_ <br>
+* Principalmente tuvimos que reunirnos para dar una Brainstorming.
 
-_· Seguidamente una vez realizada la lluvia de ideas, ver cual de todas era la más factible._<br>
+* Seguidamente una vez realizada la lluvia de ideas, ver cual de todas era la más factible.
 
-_· Después tuvimos que pensar de que manera ibamos a realizar cada fase del proyecto, aunque cabe destacar que al ser la primera vez, no lo hicimos muy bien, puesto que los sprints han sido un poco aleatorios, en referencia a la necesidad de avanzar en el proyecto en las dos últimas semanas de manera precipitada._<br>
+* Después tuvimos que pensar de que manera ibamos a realizar cada fase del proyecto, aunque cabe destacar que al ser la primera vez, no lo hicimos muy bien, puesto que los sprints han sido un poco aleatorios, en referencia a la necesidad de avanzar en el proyecto en las dos últimas semanas de manera precipitada.
 
-_· Para realizar el proyecto hemos seguido la metodología SCRUM._<br>
+* Para realizar el proyecto hemos seguido la metodología SCRUM._<br>
 
-_· Decidimos que cada reunión uno sería de forma ciclica el ScrumMaster, de tal manera que siempre sería uno diferente._<br>
+* Decidimos que cada reunión uno sería de forma ciclica el ScrumMaster, de tal manera que siempre sería uno diferente.
 
-_· De manera que cada vez que nos reuníamos, seguíamos la manera de trabajar del ScrumMaster que tocaba en ese día._<br>
+* De manera que cada vez que nos reuníamos, seguíamos la manera de trabajar del ScrumMaster que tocaba en ese día.
 
-_· Uno de los principales errores y más graves que cometimos a la hora de realizar el proyecto, fue el enfoque funcional, puesto que decidimos que la manera de realizar el proyecto iba a ser a través de coordenadas, pero una vez realizads, no encontramos la manera de guardar esas coordenadas. Entonces el ProductOwner nos sugirió realizar un tablero donde guardar dichas coordenadas._<br>
+* Uno de los principales errores y más graves que cometimos a la hora de realizar el proyecto, fue el enfoque funcional, puesto que decidimos que la manera de realizar el proyecto iba a ser a través de coordenadas, pero una vez realizads, no encontramos la manera de guardar esas coordenadas. Entonces el ProductOwner nos sugirió realizar un tablero donde guardar dichas coordenadas.
 
-## Metodología SCRUM 🚀❤️
+## Metodología SCRUM 📖
 
 | Nº Sprint| Actividad| Tiempo Estimado | Tiempo Real | Observaciones |
 | ----- | ---- | ----- | ----- | ----- |
@@ -63,35 +63,23 @@ Da un ejemplo
 
 _Explica que verifican estas pruebas y por qué_
 
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
 * [Visual Studio Code](https://code.visualstudio.com/) - El IDE utilizado para trabajar en equipo simultáneamente, con un plugin que permite programar con varias personas simultáneamente en un proyecto.
-* [GitHub](https://github.com/) - Repositorio de los archivos
-* [Discord](https://discord.com/) - Aplicacion para reuniones onlines
+* [GitHub](https://github.com/) - Repositorio de los archivos.
+* [Discord](https://discord.com/) - Aplicacion para reuniones onlines.
+* [WhatsApp](https://web.whatsapp.com/) - Aplicacion para mensajeria instantánea.
 
 ## Contribuyendo 🖇️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Cualquier contribución de mejora, pueden comunicarla a cualquier [Autor].
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Todas nuestras versiones se encuentran en nuestro [GitHub de proyecto](https://github.com/cifpfbmoll/proyecto-1a-evaluacion-python-grupo-david-miquel-y-roberto)
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **David Sastre Fernández** - *Trabajo Inicial* - *Documentación* - [David](https://github.com/David-Sastre)
 * **Miquel Ribas Mas** - *Documentación* - *Documentación* - [Miquel](https://github.com/miquel21-hub)
