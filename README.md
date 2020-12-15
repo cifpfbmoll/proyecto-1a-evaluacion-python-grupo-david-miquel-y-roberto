@@ -18,14 +18,11 @@ _· De manera que cada vez que nos reuníamos, seguíamos la manera de trabajar 
 
 _· Uno de los principales errores y más graves que cometimos a la hora de realizar el proyecto, fue el enfoque funcional, puesto que decidimos que la manera de realizar el proyecto iba a ser a través de coordenadas, pero una vez realizads, no encontramos la manera de guardar esas coordenadas. Entonces el ProductOwner nos sugirió realizar un tablero donde guardar dichas coordenadas._<br>
 
-_· Seguidamente una vez realizada la lluvia de ideas, ver cual de todas era la más factible_<br>
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Un ordenador_
+_Python 3.x_
+_Un IDE compatible con Python 3.x_
 
 ```
 Da un ejemplo
