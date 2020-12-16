@@ -4,7 +4,7 @@ _Este proyecto, consiste en realizar el juego del cuatro en raya (formato papel)
 
 ## Primeros pasos 🚀
 
-* Principalmente tuvimos que reunirnos para dar una Brainstorming.
+* Principalmente tuvimos que reunirnos para hacer un Brainstorming.
 
 * Seguidamente una vez realizada la lluvia de ideas, ver cual de todas era la más factible.
 
