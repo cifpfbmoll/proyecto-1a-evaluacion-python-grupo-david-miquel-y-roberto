@@ -13,15 +13,15 @@ def Tablero(tabla):
 
     print('---------------------')
 
-    print(tabla[9], ' | ', tabla[10], ' | ', tabla[11], ' | ', tabla[12])
+    print(tabla[9], '  | ', tabla[10], ' | ', tabla[11], ' | ', tabla[12])
 
     print('---------------------')
 
-    print(tabla[5], ' | ', tabla[6], ' | ', tabla[7], ' | ', tabla[8])
+    print(tabla[5], '  | ', tabla[6], '  | ', tabla[7], '  | ', tabla[8])
 
     print('---------------------')
 
-    print(tabla[1], ' | ', tabla[2], ' | ', tabla[3], ' | ', tabla[4])
+    print(tabla[1], '  | ', tabla[2], '  | ', tabla[3], '  | ', tabla[4])
 
 #Función Menu() que muestra el menú incorporando la función de OpcionesMenu(), para elegir que opción escoge el jugador.
 def Menu():
