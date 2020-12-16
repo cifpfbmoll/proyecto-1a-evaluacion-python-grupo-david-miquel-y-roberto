@@ -50,12 +50,12 @@ def OpcionesMenu():
     else:
         print("La opción es incorrecta, elija una opción correcta.")
 
-
+#Función Instrucciones() para mostrar todas las instrucciones del juego.
 def Instrucciones():
     os.system('cls')
     print("")
     print(" ========================================================================== ")
-    print(" =========================== INSTRUCCIONES ================================ ")
+    print(" ========================== INSTRUCCIONES ================================ ")
     print("Las casillas van de izquierda a derecha empezando por abajo hacia arriba.")
     print("")
     print("Cada jugador tendrá un movimiento por turno, en el cual tendrá que elegir")
@@ -67,7 +67,8 @@ def Instrucciones():
     print("diagonal o vertical seguidas y proclamarte GANADOR de la partida! Si llegado")
     print("el momentoel tablero se queda sin posiciones disponibles y no hay ganador, se")
     print("quedará la partidda como empate, por lo que no habrá ganadores ni perdedores.")
-    print(" =========================== IMPORTANTE =================================== ")
+    print(" ========================== IMPORTANTE =================================== ")
+    print(" ==================== ÚNICAMENTE ES PARA 2 JUGADORES ===================== ")
     print(" ===== LO PRINCIPAL DE ESTE JUEGO, ES DIVERTIRSE Y PASAR UN BUEN RATO ===== ")
     print("")
     input("Pulse cualquier tecla para volver al menú principal: ")
@@ -75,7 +76,7 @@ def Instrucciones():
     if input:
         os.system ('cls')
         Menu()
-
+#Función Jugadas() principal funcionamiento del juego.
 def Jugadas():
     jugar = True
     while jugar:
@@ -91,6 +92,7 @@ def Jugadas():
                 turno = 0
         jugar = SeguirJugando()
 
+#Función InicioJugadores() indica los nombres de los jugadores
 def InicioJugadores():
     jugador1 = input("¿Nombre del primer jugador? ")
     jugador2 = input("¿Nombre del segundo jugador? ")
@@ -100,6 +102,7 @@ def InicioJugadores():
         jugador2 = input("¿Nombre del segundo jugador? ")
     return(jugador1, jugador2)
 
+#Función JugadaJugador1() desarrolla las jugadas del jugador 1, añadiendolas al tablero y revisando que al finalizar el turno, no haya ganado.
 def JugadaJugador1(posicionj1, tupla):
     global fichas_puestas
     partida = True
@@ -123,7 +126,7 @@ def JugadaJugador1(posicionj1, tupla):
         os.system ('cls')
         return True
     
-
+#Función JugadaJugador2() desarrolla las jugadas del jugador 2, añadiendolas al tablero y revisando que al finalizar el turno, no haya ganado.
 def JugadaJugador2(posicionj2, tupla):
     global fichas_puestas
     partida = True
@@ -146,12 +149,13 @@ def JugadaJugador2(posicionj2, tupla):
                 JuegoFinalizado()
                 return False
             elif fichas_puestas == 16:
-                empate()
+                Empate()
                 JuegoFinalizado()
                 return False
         os.system ('cls')
         return True
 
+#Función PartidaGanada() comprobación de ganador.
 def PartidaGanada(tabla):
     if tabla[13] == tabla[14] == tabla[15] == tabla[16] or\
         tabla[9] == tabla[10] == tabla[11] == tabla[12] or\
@@ -169,20 +173,22 @@ def PartidaGanada(tabla):
     else:
         return False
 
-def empate():
+#Función Empate muestra tablero y print de EMPATE.
+def Empate():
     os.system ('cls')
     Tablero(tabla)
     print ("=================")
     print ("== E M P A T E ==")
     print ("=================")
 
+#Función JuegoFinalizado() Muestra print de fin del juego.
 def JuegoFinalizado():
     print("=================")
     print("==FIN DEL JUEGO==")
     print("=================")
     
-
-def SeguirJugando(): #Devolverá TRUE si el jugador quiere seguir jugando.
+#Función SeguirJugando() devolverá TRUE si el jugador quiere seguir jugando.
+def SeguirJugando(): 
     global fichas_puestas
     global tabla
     print(" ")
