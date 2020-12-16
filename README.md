@@ -47,21 +47,16 @@ _Descargar el código del programa_<br>
 
 _Ejecutarlo en el IDE_
 
-## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+### Posibles Mejoras ⌨️🛠️
 
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+* Algunas de las posibles mejoras de este proyecto serían:_<br>
+* 1. Realización de un tablero más grande. Estilo 6*6.
+* 2. Limpieza de tablero. Que el tablero no aparezca con números.
+* 3. Creación de Inteligencia artificial.
+* - Nivel Facil.
+* - Nivel Medio.
+* - Nivel Difícil. 
 
 
 ## Construido con 🛠️
