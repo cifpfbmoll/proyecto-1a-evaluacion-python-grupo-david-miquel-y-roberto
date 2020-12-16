@@ -55,18 +55,10 @@ def JugadaJugador1(posicionj1, tupla):
             posicionj1 == tabla[posicionj1]#Colocamos la "ficha" en la posición que corresponda al valor de lista identico.
             while tabla[posicionj1] == "O" or tabla[posicionj1] == "X": #Si la posición contiene una "O" mnos mostrará un mensaje de error y nos pedirá la posición de nuevo.
                 print("Esta posición es erronea o ya está cogida, dime otra.")
-                posicionj1 = int(input("Posición: "))
-                if PartidaGanada(tabla) == True:#Si al colocar la ficha el juego detecta que el jugador ha ganado, limpiará la terminal y mostará el jugador que haya ganado.
-                    os.system ('cls')
-                    Tablero(tabla)
-                    print (" ")
-                    print ("¡ENHORABUENA ", str.upper(tupla[0]), " HAS GANADO!" )
-                    JuegoFinalizado()
-                    print(Tablero(tabla))
-                    return False
+                posicionj1 = int(input("Posición: ")
             tabla[posicionj1] = "X"
             fichas_puestas += 1
-            if PartidaGanada(tabla) == True:
+            if PartidaGanada(tabla) == True:#Si al colocar la ficha el juego detecta que el jugador ha ganado, limpiará la terminal y mostará el jugador que haya ganado.
                 os.system ('cls')
                 Tablero(tabla)
                 print (" ")
@@ -95,13 +87,6 @@ def JugadaJugador2(posicionj2, tupla):
             while tabla[posicionj2] == "X" or tabla[posicionj2] ==  "O":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
                 posicionj2 = int(input("Posición: "))
-                if PartidaGanada(tabla) == True:
-                    os.system ('cls')
-                    Tablero(tabla)
-                    print (" ")
-                    print ("¡ENHORABUENA ", str.upper(tupla[1]), " HAS GANADO!" )
-                    JuegoFinalizado()
-                    return False
             tabla[posicionj2] = "O"
             fichas_puestas += 1
             
