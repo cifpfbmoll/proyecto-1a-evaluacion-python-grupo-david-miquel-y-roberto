@@ -29,11 +29,11 @@ _Este proyecto, consiste en realizar el juego del cuatro en raya (formato papel)
 | 4 | Función OpcionesMenu| 20 minutos | 1 hora | Tuvimos problemas con la función seguir, que no la llamabamos como global
 | 5 | Función JugadaJugador1 | 2 horas | 10 horas | Complicaciones con toda la función en general.
 | 6 | Función JugadaJugador2 | 15 minutos | 15 minutos |
-| 7 | Función JuegoFinalizado | 5 minutos | 2 minutos |
-| 8 | Función PartidaGanada | 1 hora 30 minutos | 2 horas |
-| 9 | Función Jugadas | 2 horas | 3 horas |
-| 10 | Función SeguirJugando  | 40 minutos | 1 hora 30 minutos |
-| 11 | Función Instrucciones  | 30 minutos | 1 hora 25 minutos |
+| 7 | Función JuegoFinalizado | 5 minutos | 2 minutos | Es un Print
+| 8 | Función PartidaGanada | 1 hora 30 minutos | 2 horas | Variables para conseguir la victoria.
+| 9 | Función Jugadas | 2 horas | 3 horas | Complicaciones para pasar al siguiente jugador.
+| 10 | Función SeguirJugando  | 40 minutos | 1 hora 30 minutos | Problemas con las variables.
+| 11 | Función Instrucciones  | 30 minutos | 1 hora 25 minutos | Indicación Reglas.
 
 
 ### Pre-requisitos 📋
