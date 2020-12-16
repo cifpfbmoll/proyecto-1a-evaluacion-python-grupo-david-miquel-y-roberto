@@ -10,7 +10,8 @@ _Este proyecto, consiste en realizar el juego del cuatro en raya (formato papel)
 
 * Después tuvimos que pensar de que manera ibamos a realizar cada fase del proyecto, aunque cabe destacar que al ser la primera vez, no lo hicimos muy bien, puesto que los sprints han sido un poco aleatorios, en referencia a la necesidad de avanzar en el proyecto en las dos últimas semanas de manera precipitada.
 
-* Para realizar el proyecto hemos seguido la metodología SCRUM._<br>
+* Para realizar el proyecto hemos seguido la metodología SCRUM.
+
 
 * Decidimos que cada reunión uno sería de forma ciclica el ScrumMaster, de tal manera que siempre sería uno diferente.
 
@@ -37,44 +38,47 @@ _Este proyecto, consiste en realizar el juego del cuatro en raya (formato papel)
 
 ### Pre-requisitos 📋
 
-_Un ordenador_<br>
-_Python 3.x_<br>
-_Un IDE compatible con Python 3.x_<br>
+* Un ordenador
+* Python 3.x
+* Un IDE compatible con Python 3.x
+
 
 ### Instalación 🔧
 
-_Descargar el código del programa_<br>
+_Descargar el código del programa_
+
 
 _Ejecutarlo en el IDE_
 
 
 ### Posibles Mejoras ⌨️🛠️
 
-* Algunas de las posibles mejoras de este proyecto serían:_<br>
-* 1. Realización de un tablero más grande. Estilo 6*6.
-* 2. Limpieza de tablero. Que el tablero no aparezca con números.
-* 3. Creación de Inteligencia artificial.
-* - Nivel Facil.
-* - Nivel Medio.
-* - Nivel Difícil. 
+Algunas de las posibles mejoras de este proyecto serían:
+
+  1. Realización de un tablero más grande. Estilo 6*6.<br>
+  2. Limpieza de tablero. Que el tablero no aparezca con números.<br>
+  3. Creación de Inteligencia artificial.<br>
+   3.1 Nivel Facil.<br>
+   3.2 Nivel Medio.<br>
+   3.3 Nivel Difícil.
 
 
-## Construido con 🛠️
+### Construido con 🛠️
 
 * [Visual Studio Code](https://code.visualstudio.com/) - El IDE utilizado para trabajar en equipo simultáneamente, con un plugin que permite programar con varias personas simultáneamente en un proyecto.
 * [GitHub](https://github.com/) - Repositorio de los archivos.
 * [Discord](https://discord.com/) - Aplicacion para reuniones onlines.
 * [WhatsApp](https://web.whatsapp.com/) - Aplicacion para mensajeria instantánea.
 
-## Contribuyendo 🖇️
+### Contribuyendo 🖇️
 
 Cualquier contribución de mejora, pueden comunicarla a cualquier [Autor].
 
-## Versionado 📌
+### Versionado 📌
 
 Todas nuestras versiones se encuentran en nuestro [GitHub de proyecto](https://github.com/cifpfbmoll/proyecto-1a-evaluacion-python-grupo-david-miquel-y-roberto)
 
-## Autores ✒️
+#### Autores ✒️
 
 * **David Sastre Fernández** - *Trabajo Inicial* - *Documentación* - [David](https://github.com/David-Sastre)
 * **Miquel Ribas Mas** - *Documentación* - *Documentación* - [Miquel](https://github.com/miquel21-hub)
@@ -82,11 +86,11 @@ Todas nuestras versiones se encuentran en nuestro [GitHub de proyecto](https://g
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/cifpfbmoll/proyecto-1a-evaluacion-python-grupo-david-miquel-y-roberto/graphs/contributors) quíenes han participado en este proyecto. 
 
-## Licencia 📄
+#### Licencia 📄
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-## Expresiones de Gratitud 🎁
+#### Expresiones de Gratitud 🎁
 
 * Darle las gracias a Julia Jacas, Josep Maria Jimenez 📢
 * Los cuales serán invitados a un café ☕ o cerveza 🍺 proximamente. 
