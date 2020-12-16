@@ -232,5 +232,5 @@ def Instrucciones():
         Menu()
     
 
-# Programa principal
+# Programa principal.
 Menu()
