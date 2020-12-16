@@ -85,7 +85,7 @@ Todas nuestras versiones se encuentran en nuestro [GitHub de proyecto](https://g
 * **Miquel Ribas Mas** - *Documentación* - *Documentación* - [Miquel](https://github.com/miquel21-hub)
 * **Roberto Torres Cruz** - *Documentación* - *Documentación* - [Roberto](https://github.com/rdtorres-cfgs)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/cifpfbmoll/proyecto-1a-evaluacion-python-grupo-david-miquel-y-roberto/graphs/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
@@ -93,12 +93,8 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
+* Darle las gracias a Julia Jacas, Josep Maria Jimenez 📢
+* Los cuales serán invitados a un café ☕ o cerveza 🍺 proximamente. 
 
 ---
 Con ❤️ :
