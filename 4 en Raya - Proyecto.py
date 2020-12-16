@@ -120,13 +120,6 @@ def JugadaJugador1(posicionj1, tupla):
                 print ("¡ENHORABUENA ", str.upper(tupla[0]), " HAS GANADO!" )
                 JuegoFinalizado()
                 return False
-            elif fichas_puestas == 16:
-                os.system ('cls')
-                Tablero(tabla)
-                print ("=================")
-                print ("== E M P A T E ==")
-                print ("=================")
-                return False
         os.system ('cls')
         return True
     
@@ -153,11 +146,8 @@ def JugadaJugador2(posicionj2, tupla):
                 JuegoFinalizado()
                 return False
             elif fichas_puestas == 16:
-                os.system ('cls')
-                Tablero(tabla)
-                print ("=================")
-                print ("== E M P A T E ==")
-                print ("=================")
+                empate()
+                JuegoFinalizado()
                 return False
         os.system ('cls')
         return True
@@ -178,6 +168,13 @@ def PartidaGanada(tabla):
         return True
     else:
         return False
+
+def empate():
+    os.system ('cls')
+    Tablero(tabla)
+    print ("=================")
+    print ("== E M P A T E ==")
+    print ("=================")
 
 def JuegoFinalizado():
     print("=================")
