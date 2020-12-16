@@ -92,7 +92,7 @@ Este proyecto está bajo la Licencia (The Unlicense) - mira el archivo [License.
 
 #### Expresiones de Gratitud 🎁
 
-* Darle las gracias a Julia Jacas, Josep Maria Jimenez 📢
+* Darle las gracias a Julia Jaca, Josep Maria Jimenez 📢
 * Los cuales serán invitados a un café ☕ o cerveza 🍺 proximamente. 
 
 ---
