@@ -110,6 +110,7 @@ def JugadaJugador1(posicionj1, tupla):
         if 1 <= posicionj1 <= 16:
             while tabla[posicionj1] == "O" or tabla[posicionj1] == "X":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
+                Tablero(tabla)
                 posicionj1 = int(input("Posición: "))
             tabla[posicionj1] = "X"
             fichas_puestas += 1
@@ -137,6 +138,7 @@ def JugadaJugador2(posicionj2, tupla):
         if 1 <= posicionj2 <= 16:
             while tabla[posicionj2] == "X" or tabla[posicionj2] ==  "O":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
+                Tablero(tabla)
                 posicionj2 = int(input("Posición: "))
             tabla[posicionj2] = "O"
             fichas_puestas += 1
