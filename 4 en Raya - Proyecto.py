@@ -1,14 +1,12 @@
-#Inicio de variables.
 import os
 os.system ('cls')
 fichas_puestas = 0
 posicionj1 = 0
 posicionj2 = 0
 partida = True
-turnojugador2 =()
 tabla = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 
-#Función del tablero para representar cada posición asignando un valor numérico a cada item de la lista.
+
 def Tablero(tabla):
     print(tabla[13], ' | ', tabla[14], ' | ', tabla[15], ' | ', tabla[16])
 
@@ -24,7 +22,7 @@ def Tablero(tabla):
 
     print(tabla[1], ' | ', tabla[2], ' | ', tabla[3], ' | ', tabla[4])
 
-#Función para saber si alguien ha ganado.
+
 def PartidaGanada(tabla):
     if tabla[13] == tabla[14] == tabla[15] == tabla[16] or\
         tabla[9] == tabla[10] == tabla[11] == tabla[12] or\
@@ -43,7 +41,7 @@ def PartidaGanada(tabla):
     else:
         return False
 
-#Función Para saber qué jugada hace el jugador 1.
+
 def JugadaJugador1(posicionj1, tupla):
     global fichas_puestas
     partida = True
@@ -52,13 +50,12 @@ def JugadaJugador1(posicionj1, tupla):
         print("Dame la posición de la ficha", tupla[0])
         posicionj1 = int(input("Posición: "))
         if 1 <= posicionj1 <= 16:
-            posicionj1 == tabla[posicionj1]#Colocamos la "ficha" en la posición que corresponda al valor de lista identico.
-            while tabla[posicionj1] == "O" or tabla[posicionj1] == "X": #Si la posición contiene una "O" mnos mostrará un mensaje de error y nos pedirá la posición de nuevo.
+            while tabla[posicionj1] == "O" or tabla[posicionj1] == "X":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
-                posicionj1 = int(input("Posición: ")
+                posicionj1 = int(input("Posición: "))
             tabla[posicionj1] = "X"
             fichas_puestas += 1
-            if PartidaGanada(tabla) == True:#Si al colocar la ficha el juego detecta que el jugador ha ganado, limpiará la terminal y mostará el jugador que haya ganado.
+            if PartidaGanada(tabla) == True:
                 os.system ('cls')
                 Tablero(tabla)
                 print (" ")
@@ -83,7 +80,6 @@ def JugadaJugador2(posicionj2, tupla):
         print("Dame la posición de la ficha", tupla[1])
         posicionj2 = int(input("Posición: "))
         if 1 <= posicionj2 <= 16:
-            posicionj2 == tabla[posicionj2]
             while tabla[posicionj2] == "X" or tabla[posicionj2] ==  "O":
                 print("Esta posición es erronea o ya está cogida, dime otra.")
                 posicionj2 = int(input("Posición: "))
@@ -177,7 +173,6 @@ def Menu():
 
 
 def OpcionesMenu():
-    
     opcion = int(input("¿Qué opción deseas? "))
     if opcion == 1:
         Instrucciones()
@@ -186,7 +181,7 @@ def OpcionesMenu():
     elif opcion == 3:
         os.system ('cls')
         print ("HASTA LUEGO, ¡VUELVE PRONTO!")
-        
+
     else:
         print("La opción es incorrecta, elija una opción correcta.")
 
@@ -205,7 +200,7 @@ def Instrucciones():
     print("")
     print("Para ganar, simplemente hay que conseguir posicionar 4 fichas en horizontal,")
     print("diagonal o vertical seguidas y proclamarte GANADOR de la partida! Si llegado")
-    print("el momento el tablero se queda sin posiciones disponibles y no hay ganador, se")
+    print("el momentoel tablero se queda sin posiciones disponibles y no hay ganador, se")
     print("quedará la partidda como empate, por lo que no habrá ganadores ni perdedores.")
     print(" =========================== IMPORTANTE =================================== ")
     print(" ===== LO PRINCIPAL DE ESTE JUEGO, ES DIVERTIRSE Y PASAR UN BUEN RATO ===== ")
@@ -217,5 +212,5 @@ def Instrucciones():
         Menu()
     
 
-# Programa principal.
+# Programa principal
 Menu()
